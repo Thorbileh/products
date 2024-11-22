@@ -1,0 +1,22 @@
+.navbar .nav-link {
+  color: black;
+  text-decoration: none;
+}
+
+.navbar .nav-link:hover {
+  color: #996633;
+  font-weight: bold;
+}
+
+.navbar.fixed-top {
+  position: sticky;
+}
+.navbar {
+  border-bottom: 3 solid #996633;
+}
+a {
+  cursor: pointer;
+}
+.cart-link {
+  width: 5rem;
+}

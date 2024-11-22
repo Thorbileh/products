@@ -1,0 +1,90 @@
+.product_detail_page {
+    background-color: #f7f7f7;
+  }
+  
+  .product_details {
+    background-color: #ffffff; /* Light background color */
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .product_image img {
+    width: 50%;
+    border-radius: 8px;
+  }
+  
+  .product_description {
+    margin-top: 20px;
+  }
+  .product_description h2 {
+    color: #3e2723;
+  }
+  
+  .ID {
+  
+    font-size: 1.5em;
+    color: #3e2723;
+  }
+  
+  .description_name {
+    font-weight: bold;
+  }
+  .product_description p{
+    font-size: 1rem;                   /* Font size for the description text */
+    color: #4e342e;  
+  }
+  
+  .product_info {
+    background-color: #ffffff; /* White background for contrast */
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 20px;
+    margin-top: 160px;
+    color:#6d4c41;
+  }
+  
+  .form-label {
+    font-weight: bold;
+    display: block;
+    color:#6d4c41;
+  }
+  
+  .btn-see-more {
+    margin-top: 10px;
+    background-color: #3e2723; /* Saddle Brown */
+    border-color: #8B4513;
+    color: #fff;
+  }
+  
+  .btn-see-more:hover {
+    background-color: #A0522D; /* Sienna */
+    border-color: #A0522D;
+  }
+  
+  .btn-outline-secondary {
+    background-color: #D2B48C; /* Tan */
+    border-color: #D2B48C;
+    color: #fff;
+  }
+  
+  .btn-outline-secondary:hover {
+    background-color: #DEB887; /* Burlywood */
+    border-color: #DEB887;
+    color: #fff;
+  }
+  
+  .btn-success {
+    background-color: #996633; /* Sienna */
+    border-color: #A0522D;
+    color: #fff;
+  }
+  
+  .btn-success:hover {
+    background-color: #8B4513; /* Saddle Brown */
+    border-color: #8B4513;
+  }
+  

@@ -1,0 +1,22 @@
+.form-container {
+    width: 400px;
+    background-color: #f5f5f5;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  .logo-container img {
+    max-width: 200px;
+  }
+  .login-btn {
+    background-color: #d2a27e;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+  }
+  .login-btn:hover {
+    background-color: #b58c6e;
+  }
+  a{
+    color:#d2a27e;
+  }

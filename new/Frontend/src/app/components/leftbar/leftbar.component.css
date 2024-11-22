@@ -1,0 +1,42 @@
+.menu-heading {
+  color: #996633;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: #996633;
+  font-weight: bold;
+}
+.container-fluid {
+  margin: 2rem 0rem;
+  margin-top: 20px;
+}
+
+.list-group {
+  text-align: center;
+}
+
+.list-group-item {
+  margin-bottom: 1rem;
+  border: none;
+  padding: 0.8rem 1rem;
+  border-radius: 8px;
+  background-color: #f8f9fa;
+}
+
+.list-group-item:hover {
+  background-color: #e9ecef;
+  font-size: medium;
+}
+
+@media (max-width: 768px) {
+  .list-group-item {
+    font-size: 1rem;
+    margin-bottom: 0.8rem;
+  }
+}

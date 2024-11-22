@@ -1,0 +1,56 @@
+<div class="product_detail_page">
+    <div class="container my-5">
+      <div class="row g-4">
+        <!-- Product Details -->
+        <div class="col-lg-8">
+          <div class="product_details">
+            <h4>{{ product?.name }}</h4>
+            <div class="product_image">
+              <img [src]="product?.thumbnail" alt="Product Image" class="img-fluid" />
+            </div>
+            <div class="product_description">
+              <h2>{{ product?.prod_name }}</h2>
+              <label for="" class="ID">ID: {{ product?.prod_id }}</label>
+          
+              <p>
+                <label class="description_name">Description:</label>
+                {{ product?.long_description }} 
+              </p>
+              <button class="btn btn-primary btn-see-more" routerLink="/products">See More</button>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Product Info -->
+        <div class="col-lg-4">
+          <div class="product_info">
+            <h3 class="product_price">R {{ totalPrice}}</h3>
+            <div class="product_quantity mb-3">
+              <label for="quantity" class="form-label">Quantity:</label>
+              <div class="input-group">
+                <button
+                  class="btn btn-outline-secondary"
+                  (click)="decrementQuantity()"
+                >
+                  -
+                </button>
+                <label
+                  id="quantity"
+                  class="form-control text-center"
+                  >{{ quantity }}</label
+                >
+                <button
+                  class="btn btn-outline-secondary"
+                  (click)="incrementQuantity()"
+                >
+                  +
+                </button>
+              </div>
+            </div>
+            <button class="btn btn-success w-100" (click)="addToCart()">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  

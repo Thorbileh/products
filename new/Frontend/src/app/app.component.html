@@ -1,0 +1,23 @@
+<app-navbar></app-navbar>
+
+
+<router-outlet>
+  <div class="container-fluid">
+    <div class="row">
+      <!-- Left Bar -->
+      <!-- <div class="col-lg-3 col-md-4 col-sm-12">
+        <app-leftbar
+          *ngIf="showSidebar"
+          [categories]="getCategories()"
+          (onSelectCategory)="selectCategory($event)"
+        ></app-leftbar>
+      </div> -->
+      Product Cards
+      <div class="col-lg-9 col-md-8 col-sm-12">
+        <app-product-cards #productCards *ngIf="showProducts"></app-product-cards>
+      </div>
+    </div>
+  </div>
+</router-outlet>
+
+<app-footer></app-footer>

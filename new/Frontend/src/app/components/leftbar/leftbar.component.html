@@ -1,0 +1,15 @@
+<!--  -->
+
+<div class="bg-light shadow-sm rounded">
+  <h3 class="menu-heading text-center mb-4">Menu</h3>
+  <ul class="list-group list-group-flush">
+    <li
+      class="list-group-item"
+      *ngFor="let category of categories"
+      (click)="selectCategory(category)"
+    >
+    <a [routerLink]="'/category/' + category">{{ category | titlecase }}</a>
+    </li>
+  </ul>
+</div>
+
